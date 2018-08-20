@@ -1,12 +1,15 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
 
-public class IfStatements : MonoBehaviour {
+public class IfStatements : MonoBehaviour
+{
 
+	public float Speed;
+	public bool LightsOn;
+	
 	// Use this for initialization
 	void Start () {
-		if (true)
+		if (LightsOn && Speed > 4)
 		{
 			//do work
 		}

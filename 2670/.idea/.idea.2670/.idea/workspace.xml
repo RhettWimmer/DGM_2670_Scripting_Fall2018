@@ -11,17 +11,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IfStatements.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IfStatements.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/IfStatements.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state>
               <folding>
-                <marker date="1534795197703" expanded="true" signature="6:78" ph="..." />
-                <marker date="1534795197703" expanded="true" signature="122:273" ph="{...}" />
-                <marker date="1534795197703" expanded="true" signature="172:209" ph="{...}" />
-                <marker date="1534795197703" expanded="true" signature="185:206" ph="{...}" />
-                <marker date="1534795197703" expanded="true" signature="264:271" ph="{...}" />
+                <marker date="1534795959430" expanded="true" signature="62:277" ph="{...}" />
+                <marker date="1534795959430" expanded="true" signature="159:213" ph="{...}" />
+                <marker date="1534795959430" expanded="true" signature="189:210" ph="{...}" />
+                <marker date="1534795959430" expanded="true" signature="268:275" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FloatData.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/FloatData.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <folding>
+                <marker date="1534795957524" expanded="true" signature="79:108" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerHealth.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/PlayerHealth.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+              <folding>
+                <marker date="1534796144595" expanded="false" signature="6:78" ph="..." />
+                <marker date="1534796144595" expanded="true" signature="121:335" ph="{...}" />
+                <marker date="1534796144595" expanded="true" signature="201:208" ph="{...}" />
+                <marker date="1534796144595" expanded="true" signature="263:333" ph="{...}" />
+                <marker date="1534796144595" expanded="true" signature="288:306" ph="{...}" />
+                <marker date="1534796144595" expanded="true" signature="313:330" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -34,11 +61,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/IfStatements.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/IfStatements.cs" />
+        <option value="$PROJECT_DIR$/Assets/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerHealth.cs" />
       </list>
     </option>
   </component>
@@ -105,12 +136,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534794256613</updated>
-      <workItem from="1534794259667" duration="938000" />
+      <workItem from="1534794259667" duration="2483000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="938000" />
+    <option name="totallyTimeSpent" value="2483000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -123,7 +154,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" />
@@ -134,6 +164,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18390192" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
@@ -154,14 +185,37 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/IfStatements.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state>
           <folding>
-            <marker date="1534795197703" expanded="true" signature="6:78" ph="..." />
-            <marker date="1534795197703" expanded="true" signature="122:273" ph="{...}" />
-            <marker date="1534795197703" expanded="true" signature="172:209" ph="{...}" />
-            <marker date="1534795197703" expanded="true" signature="185:206" ph="{...}" />
-            <marker date="1534795197703" expanded="true" signature="264:271" ph="{...}" />
+            <marker date="1534795959430" expanded="true" signature="62:277" ph="{...}" />
+            <marker date="1534795959430" expanded="true" signature="159:213" ph="{...}" />
+            <marker date="1534795959430" expanded="true" signature="189:210" ph="{...}" />
+            <marker date="1534795959430" expanded="true" signature="268:275" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/FloatData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding>
+            <marker date="1534795957524" expanded="true" signature="79:108" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/PlayerHealth.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <marker date="1534796144595" expanded="false" signature="6:78" ph="..." />
+            <marker date="1534796144595" expanded="true" signature="121:335" ph="{...}" />
+            <marker date="1534796144595" expanded="true" signature="201:208" ph="{...}" />
+            <marker date="1534796144595" expanded="true" signature="263:333" ph="{...}" />
+            <marker date="1534796144595" expanded="true" signature="288:306" ph="{...}" />
+            <marker date="1534796144595" expanded="true" signature="313:330" ph="{...}" />
           </folding>
         </state>
       </provider>
