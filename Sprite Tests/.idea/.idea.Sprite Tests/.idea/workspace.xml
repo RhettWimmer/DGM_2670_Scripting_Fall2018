@@ -55,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MouseDownEvent.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MouseDownEvent.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Eventbasedscripts/MouseDownEvent.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -64,6 +64,34 @@
                 <marker date="1535572430621" expanded="true" signature="6:104" ph="..." />
                 <marker date="1535572430621" expanded="true" signature="149:233" ph="{...}" />
                 <marker date="1535572430621" expanded="true" signature="207:231" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TriggerEnterEvent.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Eventbasedscripts/TriggerEnterEvent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding>
+                <marker date="1535572478405" expanded="true" signature="6:104" ph="..." />
+                <marker date="1535572478405" expanded="true" signature="152:271" ph="{...}" />
+                <marker date="1535572478405" expanded="true" signature="233:269" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdateEvent.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Eventbasedscripts/UpdateEvent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding>
+                <marker date="1535572584965" expanded="true" signature="6:133" ph="..." />
+                <marker date="1535572584965" expanded="true" signature="175:247" ph="{...}" />
+                <marker date="1535572584965" expanded="true" signature="223:245" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -82,8 +110,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D91C9DD7-2E7E-43CA-ACAF-56C08F388C09/b7/e1499b8a/UnityEvent.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Eventbasedscripts/TriggerEnterEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Eventbasedscripts/DestroyEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Eventbasedscripts/MouseDownEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Eventbasedscripts/UpdateEvent.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -93,6 +123,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/NewEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Eventbasedscripts/DestroyEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Eventbasedscripts/MouseDownEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Eventbasedscripts/TriggerEnterEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Eventbasedscripts/UpdateEvent.cs" />
       </list>
     </option>
   </component>
@@ -174,12 +206,12 @@
       <updated>1535399756993</updated>
       <workItem from="1535399760023" duration="2290000" />
       <workItem from="1535518178477" duration="989000" />
-      <workItem from="1535571083696" duration="1067000" />
+      <workItem from="1535571083696" duration="1821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4346000" />
+    <option name="totallyTimeSpent" value="5100000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -192,7 +224,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49840087" weight="0.0" />
       <window_info anchor="right" id="Errors In Solution" order="3" weight="0.3296875" />
@@ -299,6 +330,30 @@
             <marker date="1535572430621" expanded="true" signature="6:104" ph="..." />
             <marker date="1535572430621" expanded="true" signature="149:233" ph="{...}" />
             <marker date="1535572430621" expanded="true" signature="207:231" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Eventbasedscripts/TriggerEnterEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <marker date="1535572478405" expanded="true" signature="6:104" ph="..." />
+            <marker date="1535572478405" expanded="true" signature="152:271" ph="{...}" />
+            <marker date="1535572478405" expanded="true" signature="233:269" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Eventbasedscripts/UpdateEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <marker date="1535572584965" expanded="true" signature="6:133" ph="..." />
+            <marker date="1535572584965" expanded="true" signature="175:247" ph="{...}" />
+            <marker date="1535572584965" expanded="true" signature="223:245" ph="{...}" />
           </folding>
         </state>
       </provider>
