@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="\1c093094" t="IncludeRecursive" />
-    <e p="\app" t="IncludeRecursive" />
-    <e p="C:\Users\Dovah\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Dovah\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_Sprite Tests.-69610142.00" t="ExcludeRecursive" />
-    <e p="D:\School\Scripting\DGM_2670_Scripting_Fall2018\Sprite Tests" t="IncludeRecursive">
+    <e p="C:\Users\10627164\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_Sprite Tests.2147427096.00" t="ExcludeRecursive" />
+    <e p="C:\Users\10627164\Documents\Rhett\Git Repos\DGM_2670_Scripting_Fall2018\DGM_2670_Scripting_Fall2018\Sprite Tests" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="Eventbasedscripts" t="Include">
+            <e p="DestroyEvent.cs" t="Include" />
+            <e p="MouseDownEvent.cs" t="Include" />
+            <e p="TriggerEnterEvent.cs" t="Include" />
+            <e p="UpdateEvent.cs" t="Include" />
+          </e>
           <e p="EventScript.cs" t="Include" />
           <e p="EventScript1.cs" t="Include" />
+          <e p="NewEvent.cs" t="Include" />
           <e p="PrefabData.cs" t="Include" />
         </e>
       </e>
