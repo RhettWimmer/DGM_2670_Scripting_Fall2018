@@ -2,33 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(CharacterController))]
-public class CharacterMovement : MonoBehaviour {
-	
-	//public float speed = 6.0F;
-	/*public FloatData jumpSpeed;
-	public FloatData gravity;
+[CreateAssetMenu]
+public class MovePattern : ScriptableObject{
+    
+    public FloatData jumpSpeed;
+    public FloatData gravity;
 
-	public FloatData MoveX, MoveY, MoveZ;
-	public FloatData Rotx, Roty, Rotz;
+    public FloatData MoveX, MoveY, MoveZ;
+    public FloatData Rotx, Roty, Rotz;
 	
 	
-	private Vector3 moveDirection;
-	private Vector3 rotDirection; */
-	private CharacterController controller;
-	public MovePattern Pattern;
+    private Vector3 moveDirection;
+    private Vector3 rotDirection;
 
-	private void Start()
+
+	public void Invoke(CharacterController controller, Transform transform)
 	{
-		controller = GetComponent<CharacterController>();
-	}
-	
-	void Update() {
-		
-		Pattern.Invoke(controller, transform);
-		
-		
-	/*	
 		if (controller.isGrounded) {
 			
 			moveDirection.Set(MoveX.Value, MoveY.Value, MoveZ.Value);
@@ -48,6 +37,6 @@ public class CharacterMovement : MonoBehaviour {
 		}
 		moveDirection.y -= gravity.Value * Time.deltaTime;
 		controller.Move(moveDirection * Time.deltaTime);
-		*/
 	}
+
 }

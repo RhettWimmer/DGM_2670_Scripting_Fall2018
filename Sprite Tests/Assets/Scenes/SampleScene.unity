@@ -5587,12 +5587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b32319652e479e846bc7eabcca27f9e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
-  jumpSpeed: 8
-  gravity: 20
-  MoveX: {fileID: 11400000, guid: c4081251f1271ed4db433aa1b825c576, type: 2}
-  MoveY: {fileID: 11400000, guid: 5707fb4aae1506a46a804916de3d7000, type: 2}
-  MoveZ: {fileID: 11400000, guid: 89de57ffed5d1e5408b92048a4209b0d, type: 2}
+  Pattern: {fileID: 11400000, guid: 4680f6076483bff4392bd45f41e0a908, type: 2}
 --- !u!65 &435117480
 BoxCollider:
   m_ObjectHideFlags: 0
