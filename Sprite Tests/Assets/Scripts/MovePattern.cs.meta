@@ -3,7 +3,15 @@ guid: 58c73e904fbd6bc4e8341ea8b17daca5
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - jumpSpeed: {fileID: 11400000, guid: 5707fb4aae1506a46a804916de3d7000, type: 2}
+  - gravity: {fileID: 11400000, guid: 5707fb4aae1506a46a804916de3d7000, type: 2}
+  - MoveX: {fileID: 11400000, guid: 5707fb4aae1506a46a804916de3d7000, type: 2}
+  - MoveY: {fileID: 11400000, guid: 5707fb4aae1506a46a804916de3d7000, type: 2}
+  - MoveZ: {fileID: 11400000, guid: 5707fb4aae1506a46a804916de3d7000, type: 2}
+  - Rotx: {fileID: 11400000, guid: 5707fb4aae1506a46a804916de3d7000, type: 2}
+  - Roty: {fileID: 11400000, guid: 5707fb4aae1506a46a804916de3d7000, type: 2}
+  - Rotz: {fileID: 11400000, guid: 5707fb4aae1506a46a804916de3d7000, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

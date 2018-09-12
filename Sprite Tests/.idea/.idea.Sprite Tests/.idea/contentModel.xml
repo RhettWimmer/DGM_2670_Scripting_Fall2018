@@ -8,6 +8,7 @@
         <e p="FloatInput.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="CharacterMovement.cs" t="Include" />
+          <e p="Dual.cs" t="Include" />
           <e p="Eventbasedscripts" t="Include">
             <e p="DestroyEvent.cs" t="Include" />
             <e p="MouseDownEvent.cs" t="Include" />
@@ -16,9 +17,11 @@
           </e>
           <e p="EventScript.cs" t="Include" />
           <e p="EventScript1.cs" t="Include" />
+          <e p="FloatBool.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
           <e p="NewEvent.cs" t="Include" />
+          <e p="NotGroundedMove.cs" t="Include" />
           <e p="PrefabData.cs" t="Include" />
         </e>
       </e>
