@@ -3,18 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-[CreateAssetMenu(fileName = "MovePatternNotGrounded")]
-
-    private bool doubleJump;
-
+[CreateAssetMenu(fileName = "NotGroundedMove")]
 public class NotGroundedMove : MovePattern {
+    
+    private bool doubleJump;
 
     public override void Invoke(CharacterController controller,Transform transform)
     {
         Move(transform);
         Move(controller);
-    }
-    
-    
-    
+    }  
 }
