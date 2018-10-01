@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Dovah\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Dovah\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_Unity Project.-589799674.00" t="ExcludeRecursive" />
-    <e p="D:\School\Scripting\DGM_2670_Scripting_Fall2018\Unity Project" t="IncludeRecursive">
+    <e p="C:\Users\10627164\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_Unity Project.-320792772.00" t="ExcludeRecursive" />
+    <e p="C:\Users\10627164\Documents\Rhett\Git Repos\DGM_2670_Scripting_Fall2018\DGM_2670_Scripting_Fall2018\Unity Project" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AIAgent.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
+          <e p="Dragable.cs" t="Include" />
           <e p="Dual.cs" t="Include" />
           <e p="Eventbasedscripts" t="Include">
             <e p="DestroyEvent.cs" t="Include" />
@@ -22,11 +22,17 @@
           <e p="FloatData.cs" t="Include" />
           <e p="FloatInput.cs" t="Include" />
           <e p="ForEachLoops.cs" t="Include" />
+          <e p="Letter.cs" t="Include" />
+          <e p="Letters.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
+          <e p="NameID.cs" t="Include" />
           <e p="NewEvent.cs" t="Include" />
           <e p="NotGroundedMove.cs" t="Include" />
+          <e p="ObjectID.cs" t="Include" />
           <e p="PrefabData.cs" t="Include" />
           <e p="RunCountDown.cs" t="Include" />
+          <e p="TriggerID.cs" t="Include" />
+          <e p="Word.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

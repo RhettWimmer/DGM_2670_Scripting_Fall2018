@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-[CreateAssetMenu](fileName = "Word");
+[CreateAssetMenu(fileName = "Word")]
 public class Word : ScriptableObject{
     
     public UnityEvent Solved;

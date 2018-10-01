@@ -1,6 +1,6 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 
-[CreateAssetMenuw](fileName = "Letter")
+[CreateAssetMenu(fileName = "Letter")]
 public class Letter : ScriptableObject {
 	public Letters.LetterSelection value;
-}
+}*/
