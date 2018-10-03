@@ -189,7 +189,6 @@ GameObject:
   - component: {fileID: 470647580}
   - component: {fileID: 470647582}
   - component: {fileID: 470647583}
-  - component: {fileID: 470647584}
   m_Layer: 0
   m_Name: A
   m_TagString: Untagged
@@ -262,7 +261,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 470647579}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2.56, y: 4.45, z: 0.2}
@@ -278,18 +277,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 127a5b641c5d78d418c7cc255aba5c7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &470647584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 470647579}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc94171e7f5a9834596adac5da8f8ba2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ID: {fileID: 11400000, guid: ee6dc1afb230f1144b637b450ec73f0b, type: 2}
 --- !u!1 &688272711
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,10 +287,8 @@ GameObject:
   - component: {fileID: 688272713}
   - component: {fileID: 688272712}
   - component: {fileID: 688272715}
-  - component: {fileID: 688272714}
   - component: {fileID: 688272716}
   - component: {fileID: 688272717}
-  - component: {fileID: 688272718}
   m_Layer: 0
   m_Name: Ring A
   m_TagString: A
@@ -369,23 +354,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &688272714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 688272711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c96e9d0b91ba015408be4de53309a83f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ID: {fileID: 0}
-  OnMatch:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!65 &688272715
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -393,7 +361,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 688272711}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2.88, y: 2.88, z: 0.2}
@@ -421,38 +389,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 688272711}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc94171e7f5a9834596adac5da8f8ba2, type: 3}
+  m_Script: {fileID: 11500000, guid: ad8d956bcccbac040b2636c9d60a0b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: {fileID: 11400000, guid: ee6dc1afb230f1144b637b450ec73f0b, type: 2}
---- !u!114 &688272718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 688272711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c96e9d0b91ba015408be4de53309a83f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ID: {fileID: 11400000, guid: ee6dc1afb230f1144b637b450ec73f0b, type: 2}
-  OnMatch:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2800000, guid: 8cbd131a55ce8544ea5c66ae6d789d2e, type: 3}
-        m_MethodName: Apply
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  SpriteColor: {fileID: 11400000, guid: b8266c07a34b3904fa0a8cfc962e1af9, type: 2}
 --- !u!1 &1679587571
 GameObject:
   m_ObjectHideFlags: 0

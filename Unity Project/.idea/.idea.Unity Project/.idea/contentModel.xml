@@ -5,8 +5,12 @@
     <e p="C:\Users\10627164\Documents\Rhett\Git Repos\DGM_2670_Scripting_Fall2018\DGM_2670_Scripting_Fall2018\Unity Project" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Objects" t="Include">
+          <e p="ColorData.cs" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="AIAgent.cs" t="Include" />
+          <e p="ChangeColor.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
           <e p="Dragable.cs" t="Include" />
           <e p="Dual.cs" t="Include" />
@@ -24,6 +28,7 @@
           <e p="ForEachLoops.cs" t="Include" />
           <e p="Letter.cs" t="Include" />
           <e p="Letters.cs" t="Include" />
+          <e p="MatchID.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
           <e p="NameID.cs" t="Include" />
           <e p="NewEvent.cs" t="Include" />
@@ -31,7 +36,7 @@
           <e p="ObjectID.cs" t="Include" />
           <e p="PrefabData.cs" t="Include" />
           <e p="RunCountDown.cs" t="Include" />
-          <e p="TriggerID.cs" t="Include" />
+          <e p="TriggerEvent.cs" t="Include" />
           <e p="Word.cs" t="Include" />
         </e>
       </e>
