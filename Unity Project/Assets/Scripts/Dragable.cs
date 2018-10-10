@@ -8,6 +8,8 @@ public class Dragable : MonoBehaviour
     private Vector3 currentPOS;
     private Vector3 newPOS;
     private Camera cam;
+
+    public bool CanDrag;
     
 
     void Start ()
@@ -16,15 +18,23 @@ public class Dragable : MonoBehaviour
         
     }
 
-    private void OnMouseDown()
+    private IEnumerator OnMouseDown()
     {
         currentPOS = transform.position - cam.ScreenToWorldPoint(Input.mousePosition);
+        yield return new WaitForFixedUpdate();
+        CanDrag = true;
+        print("Down");
+        while (CanDrag)
+        {
+            yield return new WaitForFixedUpdate();
+            newPOS = currentPOS + cam.ScreenToWorldPoint(Input.mousePosition);
+            transform.position = newPOS;
+        }
     }
 
-    private void OnMouseDrag()
+    private void OnMouseUp()
     {
-        newPOS = currentPOS + cam.ScreenToWorldPoint(Input.mousePosition);
-        newPOS.z = 0;
-        transform.position = newPOS;
+        CanDrag = false;
+        print("Up");
     }
 }
