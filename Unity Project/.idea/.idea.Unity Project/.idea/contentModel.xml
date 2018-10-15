@@ -38,10 +38,15 @@
           <e p="NotGroundedMove.cs" t="Include" />
           <e p="ObjectID.cs" t="Include" />
           <e p="PrefabData.cs" t="Include" />
+          <e p="Randomizer.cs" t="Include" />
           <e p="RunCountDown.cs" t="Include" />
           <e p="Snap.cs" t="Include" />
           <e p="TriggerEvent.cs" t="Include" />
           <e p="Word.cs" t="Include" />
+        </e>
+        <e p="Store" t="Include">
+          <e p="Objects.cs" t="Include" />
+          <e p="Store.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
