@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;  
 
-public class PauseOnClick : MonoBehaviour{
-	
+public class PauseOnClick : MonoBehaviour
+{
+
 	void Start(){
 	GetComponent<Button>().onClick.AddListener(Pause);
 }
@@ -10,10 +11,5 @@ public class PauseOnClick : MonoBehaviour{
 	{
 		Time.timeScale = 0;
 		Debug.Log("Is Paused");
-	}
-
-	private void Update()
-	{
-		
 	}
 }
