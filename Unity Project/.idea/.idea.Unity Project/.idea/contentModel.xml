@@ -38,6 +38,7 @@
             <e p="PauseButton.cs" t="Include" />
             <e p="PauseMenu.cs" t="Include" />
             <e p="PauseOnclick.cs" t="Include" />
+            <e p="PlayOnClick.cs" t="Include" />
           </e>
           <e p="NameID.cs" t="Include" />
           <e p="NewEvent.cs" t="Include" />

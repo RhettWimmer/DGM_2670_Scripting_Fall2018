@@ -11,4 +11,9 @@ public class PauseOnClick : MonoBehaviour{
 		Time.timeScale = 0;
 		Debug.Log("Is Paused");
 	}
+
+	private void Update()
+	{
+		
+	}
 }
