@@ -190,6 +190,7 @@
           <e p="MatchID.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
           <e p="MyScripts" t="Include">
+            <e p="CharacterControl.cs" t="Include" />
             <e p="PauseButton.cs" t="Include" />
             <e p="PauseMenu.cs" t="Include" />
             <e p="PauseOnclick.cs" t="Include" />

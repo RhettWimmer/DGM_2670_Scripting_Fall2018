@@ -182,7 +182,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 13006381}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3, y: 1, z: 0}
+  m_LocalPosition: {x: -3, y: 1, z: 3}
   m_LocalScale: {x: 0.5946758, y: 0.60402256, z: 1.0002329}
   m_Children: []
   m_Father: {fileID: 0}
@@ -259,7 +259,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-272502
+  m_Name: pb_Mesh14124
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -1426,11 +1426,10 @@ GameObject:
   - component: {fileID: 1687066133}
   - component: {fileID: 1687066132}
   - component: {fileID: 1687066131}
-  - component: {fileID: 1687066130}
-  - component: {fileID: 1687066129}
   - component: {fileID: 1687066135}
+  - component: {fileID: 1687066129}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1444,27 +1443,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1687066128}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b32319652e479e846bc7eabcca27f9e8, type: 3}
+  m_Script: {fileID: 11500000, guid: 146616d2122ceb243b3c0a5405fa2064, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Pattern: {fileID: 11400000, guid: 76fbcff8c0e68f74fa834cebbf67f100, type: 2}
---- !u!143 &1687066130
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1687066128}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 1
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
+  moveSpeed: 10
+  jumpHeight: 10
 --- !u!65 &1687066131
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1526,7 +1509,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1687066128}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4, y: 0, z: -1}
+  m_LocalPosition: {x: -7, y: 0, z: -1}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1545,5 +1528,5 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
