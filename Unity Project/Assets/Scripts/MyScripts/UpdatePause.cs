@@ -7,14 +7,20 @@ public class UpdatePause : MonoBehaviour {
 	public bool gameIsPaused;
 	public GameObject pauseMenu;
 
-	void Update () {
-		if(Input.GetKeyDown(KeyCode.Escape)){
-				Pause();
-			}else{
+	void Update()
+	{
+		if (Input.GetKeyDown(KeyCode.Escape))
+		{
+			if (gameIsPaused)
+			{
 				ContinueGame();
 			}
+			else
+			{
+				Pause();
+			}
 		}
-
+	}
 
 	public void ContinueGame(){
 		pauseMenu.SetActive(false);
