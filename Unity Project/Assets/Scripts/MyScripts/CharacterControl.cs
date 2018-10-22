@@ -9,12 +9,14 @@ public class CharacterControl : MonoBehaviour
 
 	void Update()
 	{
-		var jump = Input.GetAxis("Jump") * Time.deltaTime * moveSpeed;
-		var move = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
-		
-		transform.Translate(move,0,0);
-		transform.Translate(0,jump,0);
+		var jump = Input.GetAxis("Jump") * Time.deltaTime * jumpHeight;
+		transform.Translate(0, jump, 0);
+
+
+		var move = Time.deltaTime * moveSpeed;
+		transform.Translate(move, 0, 0);
 	}
 }
+
 
 
