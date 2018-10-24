@@ -168,6 +168,7 @@
           <e p="ChangeColor.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
           <e p="Counter.cs" t="Include" />
+          <e p="Debugger.cs" t="Include" />
           <e p="Dragable.cs" t="Include" />
           <e p="Dual.cs" t="Include" />
           <e p="Eventbasedscripts" t="Include">
@@ -208,6 +209,7 @@
           <e p="PrefabData.cs" t="Include" />
           <e p="Randomizer.cs" t="Include" />
           <e p="RunCountDown.cs" t="Include" />
+          <e p="SimpleAI.cs" t="Include" />
           <e p="Snap.cs" t="Include" />
           <e p="TriggerEvent.cs" t="Include" />
           <e p="Word.cs" t="Include" />
