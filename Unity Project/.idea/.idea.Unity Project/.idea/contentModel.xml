@@ -191,6 +191,7 @@
           <e p="MatchID.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
           <e p="MyScripts" t="Include">
+            <e p="AddCustomers.cs" t="Include" />
             <e p="CharacterControl.cs" t="Include" />
             <e p="Clerk.cs" t="Include" />
             <e p="DeleteAfterWait.cs" t="Include" />
