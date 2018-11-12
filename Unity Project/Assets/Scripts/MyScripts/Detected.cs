@@ -11,8 +11,12 @@ public class Detected : MonoBehaviour
 
     public void Start()
     {
-        EndGameText.GetComponent<Text>().enabled = false;
-        RestartButton.GetComponent<Button>().enabled = false;
+        EndGameText = EndGameText.GetComponent<Text>();
+        RestartButton = RestartButton.GetComponent<Button>();
+
+/*
+
+        EndGameText.SetActive = false;*/
     }
 
     public void OnTriggerEnter(Collider other)
