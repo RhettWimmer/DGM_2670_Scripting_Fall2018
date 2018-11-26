@@ -201,6 +201,7 @@
             <e p="PauseMenu.cs" t="Include" />
             <e p="PauseOnclick.cs" t="Include" />
             <e p="PlayOnClick.cs" t="Include" />
+            <e p="SceneLoader.cs" t="Include" />
             <e p="SpawnEnemy.cs" t="Include" />
             <e p="SpawnRand.cs" t="Include" />
             <e p="UpdatePause.cs" t="Include" />

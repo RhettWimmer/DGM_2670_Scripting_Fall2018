@@ -120,8 +120,8 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="Detected.cs" pinned="false" current-in-tab="true">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="Detected.cs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/Detected.cs">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="315">
@@ -132,6 +132,21 @@
                     <marker date="1543267724964" expanded="true" signature="202:248" ph="{...}" />
                     <marker date="1543267724964" expanded="true" signature="296:478" ph="{...}" />
                     <marker date="1543267724964" expanded="true" signature="348:472" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SceneLoader.cs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/SceneLoader.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="14" selection-end-column="5" />
+                  <folding>
+                    <marker date="1543275241092" expanded="false" signature="6:78" ph="..." />
+                    <marker date="1543275241092" expanded="true" signature="121:242" ph="{...}" />
+                    <marker date="1543275241092" expanded="true" signature="171:178" ph="{...}" />
+                    <marker date="1543275241092" expanded="true" signature="233:240" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -152,6 +167,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Snap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/CharacterControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dragable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/SceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SimpleAI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/PauseButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NotGroundedMove.cs" root0="FORCE_HIGHLIGHTING" />
@@ -231,6 +247,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="SolutionExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -243,7 +260,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="SolutionExplorer" />
       <pane id="FileSystemExplorer" />
     </panes>
   </component>
@@ -316,11 +332,12 @@
       <workItem from="1541240922842" duration="2203000" />
       <workItem from="1542056555430" duration="1295000" />
       <workItem from="1543263010880" duration="4176000" />
+      <workItem from="1543275245585" duration="664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46552000" />
+    <option name="totallyTimeSpent" value="47216000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -333,6 +350,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -341,7 +359,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16151386" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16151386" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -365,25 +383,25 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Unity" order="9" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Unit Tests" order="11" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Unit Tests Coverage" order="5" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,6 +423,57 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/Clerk.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <marker date="1541613822976" expanded="false" signature="6:78" ph="..." />
+            <marker date="1541613822976" expanded="true" signature="114:405" ph="{...}" />
+            <marker date="1541613822976" expanded="true" signature="185:403" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SimpleAI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <marker date="1540412128576" expanded="false" signature="6:100" ph="..." />
+            <marker date="1540412128576" expanded="true" signature="139:382" ph="{...}" />
+            <marker date="1540412128576" expanded="true" signature="233:291" ph="{...}" />
+            <marker date="1540412128576" expanded="true" signature="318:380" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/Money.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+          <folding>
+            <marker date="1543268130372" expanded="false" signature="6:78" ph="..." />
+            <marker date="1543268130372" expanded="true" signature="115:195" ph="{...}" />
+            <marker date="1543268130372" expanded="true" signature="135:193" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/Detected.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <marker date="1543267724964" expanded="false" signature="6:100" ph="..." />
+            <marker date="1543267724964" expanded="true" signature="139:480" ph="{...}" />
+            <marker date="1543267724964" expanded="true" signature="202:248" ph="{...}" />
+            <marker date="1543267724964" expanded="true" signature="296:478" ph="{...}" />
+            <marker date="1543267724964" expanded="true" signature="348:472" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/UpdatePause.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -466,35 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1620">
           <caret line="533" selection-start-line="533" selection-end-line="533" />
-          <folding>
-            <marker date="1540226741257" expanded="true" signature="0:19" ph="/* 7/8/2013 ... */" />
-            <marker date="1540226741257" expanded="false" signature="39:162" ph="..." />
-            <marker date="1540226741257" expanded="true" signature="182:48679" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="240:602" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="246:353" ph="/* When opening Unity, remember whether or not ProGrids was open when Unity was shut down last. ... */" />
-            <marker date="1540226741257" expanded="true" signature="379:599" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="442:595" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="678:48677" ph="{...}" />
-            <marker date="1540226741257" expanded="false" signature="685:3518" ph="MEMBERS" />
-            <marker date="1540226741257" expanded="false" signature="3522:5571" ph="CONSTANT" />
-            <marker date="1540226741257" expanded="false" signature="5575:9709" ph="PREFERENCES" />
-            <marker date="1540226741257" expanded="false" signature="9713:14361" ph="MENU" />
-            <marker date="1540226741257" expanded="true" signature="14365:18811" ph="INITIALIZATION / SERIALIZATION" />
-            <marker date="1540226741257" expanded="true" signature="14478:14663" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="14682:14838" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="14866:15560" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="15580:15609" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="15632:15856" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="15900:16275" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="16310:18797" ph="{...}" />
-            <marker date="1540226741257" expanded="false" signature="18815:27641" ph="INTERFACE" />
-            <marker date="1540226741257" expanded="false" signature="27645:36805" ph="ONSCENEGUI" />
-            <marker date="1540226741257" expanded="false" signature="36809:41183" ph="GRAPHICS" />
-            <marker date="1540226741257" expanded="false" signature="41187:42536" ph="ENUM UTILITY" />
-            <marker date="1540226741257" expanded="false" signature="42540:43082" ph="MOVING TRANSFORMS" />
-            <marker date="1540226741257" expanded="false" signature="43086:46386" ph="SETTINGS" />
-            <marker date="1540226741257" expanded="false" signature="46390:48674" ph="GLOBAL SETTING" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -544,35 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7995">
           <caret line="533" selection-start-line="533" selection-end-line="533" />
-          <folding>
-            <marker date="1540226741257" expanded="true" signature="0:19" ph="/* 7/8/2013 ... */" />
-            <marker date="1540226741257" expanded="false" signature="39:162" ph="..." />
-            <marker date="1540226741257" expanded="true" signature="182:48679" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="240:602" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="246:353" ph="/* When opening Unity, remember whether or not ProGrids was open when Unity was shut down last. ... */" />
-            <marker date="1540226741257" expanded="true" signature="379:599" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="442:595" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="678:48677" ph="{...}" />
-            <marker date="1540226741257" expanded="false" signature="685:3518" ph="MEMBERS" />
-            <marker date="1540226741257" expanded="false" signature="3522:5571" ph="CONSTANT" />
-            <marker date="1540226741257" expanded="false" signature="5575:9709" ph="PREFERENCES" />
-            <marker date="1540226741257" expanded="false" signature="9713:14361" ph="MENU" />
-            <marker date="1540226741257" expanded="true" signature="14365:18811" ph="INITIALIZATION / SERIALIZATION" />
-            <marker date="1540226741257" expanded="true" signature="14478:14663" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="14682:14838" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="14866:15560" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="15580:15609" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="15632:15856" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="15900:16275" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="16310:18797" ph="{...}" />
-            <marker date="1540226741257" expanded="false" signature="18815:27641" ph="INTERFACE" />
-            <marker date="1540226741257" expanded="false" signature="27645:36805" ph="ONSCENEGUI" />
-            <marker date="1540226741257" expanded="false" signature="36809:41183" ph="GRAPHICS" />
-            <marker date="1540226741257" expanded="false" signature="41187:42536" ph="ENUM UTILITY" />
-            <marker date="1540226741257" expanded="false" signature="42540:43082" ph="MOVING TRANSFORMS" />
-            <marker date="1540226741257" expanded="false" signature="43086:46386" ph="SETTINGS" />
-            <marker date="1540226741257" expanded="false" signature="46390:48674" ph="GLOBAL SETTING" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -672,35 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1620">
           <caret line="533" selection-start-line="533" selection-end-line="533" />
-          <folding>
-            <marker date="1540226741257" expanded="true" signature="0:19" ph="/* 7/8/2013 ... */" />
-            <marker date="1540226741257" expanded="false" signature="39:162" ph="..." />
-            <marker date="1540226741257" expanded="true" signature="182:48679" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="240:602" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="246:353" ph="/* When opening Unity, remember whether or not ProGrids was open when Unity was shut down last. ... */" />
-            <marker date="1540226741257" expanded="true" signature="379:599" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="442:595" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="678:48677" ph="{...}" />
-            <marker date="1540226741257" expanded="false" signature="685:3518" ph="MEMBERS" />
-            <marker date="1540226741257" expanded="false" signature="3522:5571" ph="CONSTANT" />
-            <marker date="1540226741257" expanded="false" signature="5575:9709" ph="PREFERENCES" />
-            <marker date="1540226741257" expanded="false" signature="9713:14361" ph="MENU" />
-            <marker date="1540226741257" expanded="true" signature="14365:18811" ph="INITIALIZATION / SERIALIZATION" />
-            <marker date="1540226741257" expanded="true" signature="14478:14663" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="14682:14838" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="14866:15560" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="15580:15609" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="15632:15856" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="15900:16275" ph="{...}" />
-            <marker date="1540226741257" expanded="true" signature="16310:18797" ph="{...}" />
-            <marker date="1540226741257" expanded="false" signature="18815:27641" ph="INTERFACE" />
-            <marker date="1540226741257" expanded="false" signature="27645:36805" ph="ONSCENEGUI" />
-            <marker date="1540226741257" expanded="false" signature="36809:41183" ph="GRAPHICS" />
-            <marker date="1540226741257" expanded="false" signature="41187:42536" ph="ENUM UTILITY" />
-            <marker date="1540226741257" expanded="false" signature="42540:43082" ph="MOVING TRANSFORMS" />
-            <marker date="1540226741257" expanded="false" signature="43086:46386" ph="SETTINGS" />
-            <marker date="1540226741257" expanded="false" signature="46390:48674" ph="GLOBAL SETTING" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -756,6 +738,19 @@
             <marker date="1543268130372" expanded="false" signature="6:78" ph="..." />
             <marker date="1543268130372" expanded="true" signature="115:195" ph="{...}" />
             <marker date="1543268130372" expanded="true" signature="135:193" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/SceneLoader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <marker date="1543275241092" expanded="false" signature="6:78" ph="..." />
+            <marker date="1543275241092" expanded="true" signature="121:242" ph="{...}" />
+            <marker date="1543275241092" expanded="true" signature="171:178" ph="{...}" />
+            <marker date="1543275241092" expanded="true" signature="233:240" ph="{...}" />
           </folding>
         </state>
       </provider>
