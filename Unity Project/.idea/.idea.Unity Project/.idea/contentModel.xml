@@ -196,6 +196,7 @@
             <e p="DeleteAfterWait.cs" t="Include" />
             <e p="Detected.cs" t="Include" />
             <e p="JumpText.cs" t="Include" />
+            <e p="Money.cs" t="Include" />
             <e p="PauseButton.cs" t="Include" />
             <e p="PauseMenu.cs" t="Include" />
             <e p="PauseOnclick.cs" t="Include" />

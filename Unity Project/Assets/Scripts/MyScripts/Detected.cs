@@ -5,18 +5,12 @@ using UnityEngine.UI;
 
 public class Detected : MonoBehaviour
 {
-
-    public Text EndGameText;
-    public Button RestartButton;
+    public GameObject EndGame;
+    
 
     public void Start()
     {
-        EndGameText = EndGameText.GetComponent<Text>();
-        RestartButton = RestartButton.GetComponent<Button>();
-
-/*
-
-        EndGameText.SetActive = false;*/
+        EndGame.SetActive(false);
     }
 
     public void OnTriggerEnter(Collider other)
@@ -24,8 +18,8 @@ public class Detected : MonoBehaviour
         if (other.gameObject.name == "Clerk")
         {
             Time.timeScale = 0;
-            EndGameText.GetComponent<Text>().enabled = true;
-            RestartButton.GetComponent<Button>().enabled = true;
+            Debug.Log("End Game");
+            EndGame.SetActive(true);
         }
     }
 }
