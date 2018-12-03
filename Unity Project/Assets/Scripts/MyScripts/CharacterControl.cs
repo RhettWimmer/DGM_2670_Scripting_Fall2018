@@ -5,7 +5,7 @@ using UnityEngine;
 public class CharacterControl : MonoBehaviour
 {
 	public float moveSpeed;
-/*	public float jumpHeight;*/
+/*	public float jumpHeight;	*/
 
 	void Update()
 	{
