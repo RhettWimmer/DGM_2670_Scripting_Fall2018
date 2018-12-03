@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Dovah\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Dovah\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_Unity Project.-589799674.00" t="ExcludeRecursive" />
-    <e p="D:\School\Scripting\DGM_2670_Scripting_Fall2018\Unity Project" t="IncludeRecursive">
+    <e p="C:\Users\10627164\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_Unity Project.-320792772.00" t="ExcludeRecursive" />
+    <e p="C:\Users\10627164\Documents\Rhett\Git Repos\DGM_2670_Scripting_Fall2018\DGM_2670_Scripting_Fall2018\Unity Project" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -194,6 +193,7 @@
             <e p="AddCustomers.cs" t="Include" />
             <e p="CharacterControl.cs" t="Include" />
             <e p="Clerk.cs" t="Include" />
+            <e p="CountUp.cs" t="Include" />
             <e p="CustData.cs" t="Include" />
             <e p="CustomerEnding.cs" t="Include" />
             <e p="DeleteAfterWait.cs" t="Include" />
@@ -204,6 +204,7 @@
             <e p="PauseMenu.cs" t="Include" />
             <e p="PauseOnclick.cs" t="Include" />
             <e p="PlayOnClick.cs" t="Include" />
+            <e p="RunnerCount.cs" t="Include" />
             <e p="SceneLoader.cs" t="Include" />
             <e p="SpawnEnemy.cs" t="Include" />
             <e p="SpawnRand.cs" t="Include" />
