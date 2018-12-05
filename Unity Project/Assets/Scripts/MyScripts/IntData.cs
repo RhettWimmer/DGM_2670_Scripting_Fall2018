@@ -11,5 +11,6 @@ public class IntData : ScriptableObject
     public virtual int Value
     {
         get { return IntValue; }
+        set { IntValue = value; }
     }
 }

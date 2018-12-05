@@ -7,7 +7,7 @@ public class Money : MonoBehaviour
 {
 
 	public float Speed = 100;
-	public IntData Cash = 0;
+	public IntData Cash;
 	public Button MyButton;
 	
 	void Update () {
@@ -19,7 +19,7 @@ public class Money : MonoBehaviour
 	{
 		if (other.gameObject.name == "Clerk")
 		{	
-			Cash += 1;
+			Cash.Value += 1;
 			Debug.Log("working" + Cash);
 		}
 	}
