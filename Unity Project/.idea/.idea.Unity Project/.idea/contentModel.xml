@@ -194,6 +194,7 @@
             <e p="CharacterControl.cs" t="Include" />
             <e p="Clerk.cs" t="Include" />
             <e p="CoinCount.cs" t="Include" />
+            <e p="ContinueGame.cs" t="Include" />
             <e p="CountUp.cs" t="Include" />
             <e p="CustData.cs" t="Include" />
             <e p="CustomerEnding.cs" t="Include" />
@@ -206,6 +207,8 @@
             <e p="PauseMenu.cs" t="Include" />
             <e p="PauseOnclick.cs" t="Include" />
             <e p="PlayOnClick.cs" t="Include" />
+            <e p="QuitGame.cs" t="Include" />
+            <e p="RestartButt.cs" t="Include" />
             <e p="RunnerCount.cs" t="Include" />
             <e p="SceneLoader.cs" t="Include" />
             <e p="SpawnEnemy.cs" t="Include" />
