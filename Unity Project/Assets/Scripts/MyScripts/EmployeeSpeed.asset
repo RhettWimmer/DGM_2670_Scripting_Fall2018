@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d461fa80bfdf23441921431965439e60, type: 3}
   m_Name: EmployeeSpeed
   m_EditorClassIdentifier: 
-  Value: 0
+  Value: 20

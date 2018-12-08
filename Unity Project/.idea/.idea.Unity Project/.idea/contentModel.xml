@@ -204,6 +204,7 @@
             <e p="IntData.cs" t="Include" />
             <e p="JumpText.cs" t="Include" />
             <e p="Money.cs" t="Include" />
+            <e p="MoneySpawn.cs" t="Include" />
             <e p="PauseButton.cs" t="Include" />
             <e p="PauseMenu.cs" t="Include" />
             <e p="PauseOnclick.cs" t="Include" />
@@ -216,6 +217,7 @@
             <e p="SpawnEnemy.cs" t="Include" />
             <e p="SpawnRand.cs" t="Include" />
             <e p="SpeedPer.cs" t="Include" />
+            <e p="StartTime.cs" t="Include" />
             <e p="StoreFront.cs" t="Include" />
             <e p="UpdatePause.cs" t="Include" />
             <e p="UseCount.cs" t="Include" />

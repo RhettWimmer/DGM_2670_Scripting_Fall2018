@@ -19,7 +19,8 @@ public class Money : MonoBehaviour
 		if (other.gameObject.name == "Clerk")
 		{	
 			Cash.Value += 1;
-			Debug.Log("working" + Cash);
+			Destroy(gameObject);
+/*			Debug.Log("working" + Cash);*/
 		}
 	}
 }

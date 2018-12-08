@@ -18,7 +18,7 @@ public class Clerk : MonoBehaviour
 		transform.Translate(move, 0, 0);
 		transform.Translate(0,0, turn);
 
-		if (EmployeeMove.Value <= 0)
+		if (EmployeeMove.Value <= 1)
 		{
 			EmployeeMove.Value = 5;
 		}
