@@ -212,9 +212,14 @@
             <e p="RestartButt.cs" t="Include" />
             <e p="RunnerCount.cs" t="Include" />
             <e p="SceneLoader.cs" t="Include" />
+            <e p="Slowtime.cs" t="Include" />
             <e p="SpawnEnemy.cs" t="Include" />
             <e p="SpawnRand.cs" t="Include" />
+            <e p="SpeedPer.cs" t="Include" />
+            <e p="StoreFront.cs" t="Include" />
             <e p="UpdatePause.cs" t="Include" />
+            <e p="UseCount.cs" t="Include" />
+            <e p="UseSkin.cs" t="Include" />
           </e>
           <e p="NameID.cs" t="Include" />
           <e p="NewEvent.cs" t="Include" />
@@ -225,12 +230,12 @@
           <e p="RunCountDown.cs" t="Include" />
           <e p="SimpleAI.cs" t="Include" />
           <e p="Snap.cs" t="Include" />
+          <e p="Store" t="Include">
+            <e p="Objects.cs" t="Include" />
+            <e p="Store.cs" t="Include" />
+          </e>
           <e p="TriggerEvent.cs" t="Include" />
           <e p="Word.cs" t="Include" />
-        </e>
-        <e p="Store" t="Include">
-          <e p="Objects.cs" t="Include" />
-          <e p="Store.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

@@ -6,11 +6,11 @@ using UnityEngine;
 public class IntData : ScriptableObject
 {
 
-    public int IntValue;
+    public int Value;
 
-    public virtual int Value
+/*    public virtual int Value
     {
         get { return IntValue; }
         set { IntValue = value; }
-    }
+    }*/
 }

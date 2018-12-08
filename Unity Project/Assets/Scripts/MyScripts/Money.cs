@@ -8,7 +8,6 @@ public class Money : MonoBehaviour
 
 	public float Speed = 100;
 	public IntData Cash;
-	public Button MyButton;
 	
 	void Update () {
 		transform.Rotate(Vector3.up, Speed * Time.deltaTime);		

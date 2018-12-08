@@ -5,7 +5,15 @@ using UnityEngine.UI;
 
 public class CoinCount : MonoBehaviour
 {
-   private Text coinText;
+   public Text label;
+   public IntData Cash;
    
-   
+
+   private void Update()
+   {
+      int number = Cash.Value; 
+      
+      label = GetComponent<Text>();
+      label.text = number.ToString();
+   }
 }

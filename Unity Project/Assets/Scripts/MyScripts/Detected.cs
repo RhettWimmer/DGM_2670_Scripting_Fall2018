@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Detected : MonoBehaviour
 {
     public GameObject EndGame;
+    public IntData EmployeeMove;
     
 
     public void Start()
@@ -20,6 +21,7 @@ public class Detected : MonoBehaviour
             Time.timeScale = 0;
             Debug.Log("End Game");
             EndGame.SetActive(true);
+            EmployeeMove.Value -= 5;
         }
     }
 }
