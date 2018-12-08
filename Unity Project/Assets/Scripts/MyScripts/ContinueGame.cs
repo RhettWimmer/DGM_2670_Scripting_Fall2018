@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ContinueGame : MonoBehaviour {
 
+    /*
     public bool gameIsPaused;
     public GameObject pauseMenu;
    
@@ -28,5 +29,6 @@ public class ContinueGame : MonoBehaviour {
         gameIsPaused = false;
 
     }
-    
+    */
+
 }
